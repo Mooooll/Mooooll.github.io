@@ -1,0 +1,33 @@
+[
+  {
+    "date": "This file is a template",
+    "content": "\"content\" 可以是一个字符串"
+  },
+  {
+    "date": "Or introduce",
+    "content": [
+      "\"content\"",
+      "也",
+      "可",
+      "以",
+      "是",
+      "个",
+      "数",
+      "组"
+    ]
+  },
+  {
+    "date": "Just copy",
+    "content": [
+      {
+        "name": "\"content\"",
+        "info": [
+          "可以是一个字符串",
+          "可以是个数组",
+          "也可以是个复杂点的数组"
+        ]
+      },
+      "不过只支持到二级"
+    ]
+  }
+]
