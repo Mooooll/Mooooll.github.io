@@ -54,5 +54,11 @@
       "优化防抖，mes样式",
       "loading 界面加了个五秒提示文字"
     ]
+  },
+  {
+    "date": "2023.11.27",
+    "content": [
+      "link--https://blog.csdn.net/twoByte/article/details/73269653--参照CSDN中这篇文章写了个可拖动元素"
+    ]
   }
 ]
