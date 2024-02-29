@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2024.2.29",
+    "content": [
+      "修复重复监听 browserResizeMD 的问题",
+      "SPA首屏优化：以函数的形式加载路由",
+      "新增动画 type 打字机效果",
+      "Dapai 开发中",
+      "select 小更新",
+      "test 中视差滚动取得重大突破",
+      "统一主题色：#fbc82f 雅梨黄 Bright yellow(嫩黄)"
+    ]
+  }
+]
