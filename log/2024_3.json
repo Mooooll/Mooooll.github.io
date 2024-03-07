@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2024.3.5",
+    "content": [
+      "link--https://github.com/tailwindlabs/tailwindcss/discussions/5258--解决一个小问题：使用 @apply 时会报 Unknown at rule @apply。解决方法来自GitHub",
+      "utils.js 新增 sleep 函数",
+      "并整理了一下 utils.js"
+    ]
+  },
+  {
+    "date": "2024.3.6",
+    "content": [
+      "开发 dapai",
+      "新增修改昵称和中途加入功能"
+    ]
+  },
+  {
+    "date": "2024.3.7",
+    "content": [
+      "开发 dapai",
+      "增加非常丝滑的动画",
+      "增加退出功能",
+      {
+        "name": "修复若干问题",
+        "info": [
+          "其中改名逻辑：用v-band 和 @input 替换掉了原来的 v-model",
+          "player 组件的点击事件采用捕获方式：@click.capture",
+          "新增玩家 id 改用时间戳",
+          "改善了一些判定问题"
+        ]
+      }
+    ]
+  }
+]

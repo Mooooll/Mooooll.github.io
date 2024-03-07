@@ -1,0 +1,1 @@
+import{i as s,b as o,c as a,f as c}from"./index-b8a4f2d1.js";const r={class:"about flex justify-center items-start"},_={__name:"About",setup(n){const e=s();function t(){e.push({name:"select",query:{flag:"log"}})}return(u,l)=>(o(),a("div",r,[c("span",{onClick:t,class:"text-5xl cursor-pointer"},"INFP")]))}};export{_ as default};
