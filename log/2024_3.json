@@ -56,13 +56,12 @@
       "link--https://cn.vitejs.dev/guide/features#glob-import--vite-glob导入",
       "link--https://juejin.cn/post/7298332581354881034--Vite + Vue 中 img 动态设置 src",
       "楼上两位大功臣",
-      "就这玩意花了我一下午试错 🤡",
+      "就这玩意花了我一下午试错",
       {
         "name": "原因：",
         "info": [
           "我希望图标能轻易修改颜色，暗色模式很需要这一点，我不想像公司里那样用两套图标，所以我的 svg 图标都是在 <span> 标签中 用 background-image: url('...'); 引入的",
-          "于是那个元素不显示的时候它就不会加载，网速快无所谓，但网速慢体验极差",
-          "虽然 import.meta.glob 默认是预加载的，但我这种用法确实刁钻"
+          "于是那个元素不显示的时候它就不会加载，网速快无所谓，但网速慢体验极差"
         ]
       },
       {
@@ -75,10 +74,21 @@
           "将得到一个url（字符串）：http://localhost:5173/src/assets/img/icon/chevron-back.svg",
           "再丢到模板里用，但由于是背景图片，我得丢 css里：:style=\"{ 'background-image': `url(${item})`}\"",
           "然后在模板里把这一坨给他绝对定位丢到外太空去藏着，偷偷加载",
-          "然后十秒钟后噶掉它，省的添麻烦"
+          "然后十秒钟后噶掉它，省的添麻烦",
+          "贴个码",
+          "let need_preload = ref(true); let icon_list = reactive([]); const preloadIcon = async () => { await nextTick(); const list = Object.keys(import.meta.glob('../assets/img/icon/*.svg')); for (let i = 0; i < list.length; i++) { icon_list.push(new URL(list[i], import.meta.url).href); }; setTimeout(() => { need_preload.value = false; }, 1e4); }; preloadIcon()"
         ]
       },
       "更新 README.md"
+    ]
+  },
+  {
+    "date": "2024.3.20",
+    "content": [
+      "哦豁，楼上预加载到线上环境就嘎了",
+      "使用 css 中 url 引入的，浏览器在渲染页面时通常会按需加载它们",
+      "直接复制 svg 代码到模板里才是最优解，除了 log.vue 里的其他都改了，这里头的影响很小啦",
+      "3.16 的我像个小丑🤡🤡🤡"
     ]
   }
 ]
