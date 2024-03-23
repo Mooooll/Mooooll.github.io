@@ -119,7 +119,8 @@
       "样式修改*n",
       "切换路由置顶延迟了150ms",
       "自定义了一个全局 color 到 tailwind.config.js",
-      "完成：用 ResizeObserver 监听某个 div 的宽高"
+      "完成：用 ResizeObserver 监听某个 div 的宽高",
+      "优化路由跳转置顶动画过程 改为延迟 200ms"
     ]
   }
 ]
