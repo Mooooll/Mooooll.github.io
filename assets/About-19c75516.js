@@ -1,1 +1,0 @@
-import{b as t,c as e,d as s}from"./index-2f1ebdc9.js";const o={class:"about flex justify-center items-start"},a=s("span",{class:"text-5xl"},"INFP",-1),c=[a],l={__name:"About",setup(_){return(n,r)=>(t(),e("div",o,c))}};export{l as default};
