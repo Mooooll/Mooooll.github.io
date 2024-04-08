@@ -1,0 +1,1 @@
+.cloud[data-v-2b36b0c2]{animation:cloud-2b36b0c2 50s linear infinite}@keyframes cloud-2b36b0c2{to{transform:translate(-25%)}}.scale-enter-from[data-v-2b36b0c2]{opacity:0;transform:scale(.9) translateY(30px)}.scale-leave-to[data-v-2b36b0c2]{opacity:0;transform:scale(.9) translateY(-30px)}.scale-enter-active[data-v-2b36b0c2],.scale-leave-active[data-v-2b36b0c2]{transition:.2s ease}
