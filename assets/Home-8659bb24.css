@@ -1,0 +1,1 @@
+.cloud[data-v-ffac781d]{animation:cloud-ffac781d 50s linear infinite}@keyframes cloud-ffac781d{to{transform:translate(-25%)}}.scale-enter-from[data-v-ffac781d]{opacity:0;transform:scale(.9) translateY(30px)}.scale-leave-to[data-v-ffac781d]{opacity:0;transform:scale(.9) translateY(-30px)}.scale-enter-active[data-v-ffac781d],.scale-leave-active[data-v-ffac781d]{transition:.2s ease}
