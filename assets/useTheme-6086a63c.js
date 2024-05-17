@@ -1,0 +1,1 @@
+import{r as n,C as r,b as u,c as o,o as l}from"./index-8ff337a0.js";function m(){let e=n(document.documentElement.classList[0]??"light"),t=r(()=>"bg-"+e.value);u(()=>{o.on("darkMode",a)});const a=s=>{s?e.value="dark":e.value="light"};return l(()=>{o.off("darkMode")}),t}export{m as u};
