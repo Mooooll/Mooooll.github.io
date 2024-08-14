@@ -1,0 +1,19 @@
+[
+  {
+    "date": "2024.8.8",
+    "content": [
+      "修复 dapai 组件不输入点数 NaN 问题。",
+      "增加最小值 0。"
+    ]
+  },
+  {
+    "date": "2024.8.14",
+    "content": [
+      "改主页卡片第三个的效果，让它自己动。",
+      "改了些文案。",
+      "还改了部分 css。",
+      "link--https://docs.tenapi.cn/random/yiyan.html--感谢 TenAPI 的随机一言！",
+      "发现 ref 能在 v-for 里直接用，初始化一个空数组即可。"
+    ]
+  }
+]
