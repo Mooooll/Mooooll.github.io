@@ -15,5 +15,9 @@
       "link--https://docs.tenapi.cn/random/yiyan.html--感谢 TenAPI 的随机一言！",
       "发现 ref 能在 v-for 里直接用，初始化一个空数组即可。"
     ]
+  },
+  {
+    "date": "2024.8.15",
+    "content": "去掉了首页大图"
   }
 ]
